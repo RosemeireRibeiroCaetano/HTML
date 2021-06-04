@@ -1,3 +1,2 @@
 # html
-Primeiro curso de Html
-
+Primeiro curso de HTML
