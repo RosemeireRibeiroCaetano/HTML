@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; 
+}
+
+.container nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 94px;
+  background: #29292C;
+}
+
+.container nav a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.container nav a span {
+  margin-left: 8px;
+
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.container nav a span:hover{
+  color: #FA4A55;
+}
+.container nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.container nav ul li  {
+  font-family: monospace;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 24px 24px;
+
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #FA4A55;
+}
+
+
+.container button {
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 28px;
+  width: 123px;
+  height: 46px;
+  background: #FA4A55;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.container button:hover {
+ background-color : #fa4a56dc;
+}
+
+
+
+ 
+  
+
+
+
+
+
