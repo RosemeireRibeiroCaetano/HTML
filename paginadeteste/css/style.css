@@ -4,12 +4,7 @@
   font-family: Helvetica;
   box-sizing: border-box;
 }
-/*Cabeçalho*/
 
-.container {
-  box-sizing: border-box;
-  overflow: hidden;
-}
 .container header {
   background-color:  #608fc6;
   color: #ffff;
@@ -18,59 +13,85 @@
   text-align: center;
 
 }
+
+.container nav {
+  border-bottom: 3px solid #ddd;
+}
 /*Grid de produtos*/
 .container nav ul {
-  display: block;
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-weight: 800;
+  padding: 20px;
 }
 .container nav li {
   list-style: none;
-  display: inline-block;
+  display: flex;
   margin-right: 30px;
-  margin: 60px;
-  border-style:ridge;
-  
 }
-li a {
+.container nav ul li a {
   text-decoration: none;
- 
-}
-.container nav a{
- color: #608fc6;
- text-decoration: none;
- text-transform:lowercase;
- 
-}
-.container img{
-margin: 100px 0 0 0 ;
-color: rgb(151, 147, 147);
-border-style: ridge;
-height: 300px;
-width: 400px;
-  
+  color: #608fc6;
+  text-decoration: none;
+  text-transform:lowercase;
 }
 
-.imgs {
- display: flex;
- 
- }
+.cimg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 100%;
+}
 
-h3 {
-  color: #2f2f2f;
-  font-weight: bold;
-  font-size: .9375em;
-  letter-spacing: -0.4px;
-  text-transform: uppercase;
+.cimg .card-img {
+  width: 284px;
+  height: 416px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  margin: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cimg .card-img img {
+  width: 350px;
+  width: 282px;
+  height: 275px;
+}
+
+.cimg .card-img .informacao {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  line-height: 1.2em;
-  min-height: 30px;
+  width: 100%;
 }
-span {
-  color: #2DBDAF;
-  font-size: 1.125em;
+
+.cimg .card-img .informacao .title {
+  margin: 20px 0;
   font-weight: bold;
+  font-size: 16px;
+  text-align: center;
 }
-p {
- text-align: center;
+.cimg .card-img .informacao .valor {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.cimg .card-img .informacao .valor .bold-blue {
+  font-weight: bold;
+  color: #2DBDAF;
+  margin-bottom: 10px;
+}
+.cimg .card-img .informacao .valor .bold-blue .sem-bold {
+  font-weight: normal;
+  color: #000;
+}
+.cimg .card-img .informacao .valor .negrito {
+  font-weight: bold;
+  color: #000;
+  font-size: 14px;
 }
