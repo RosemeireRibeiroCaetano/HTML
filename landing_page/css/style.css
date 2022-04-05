@@ -12,7 +12,7 @@ body {
   background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
 }
 
-.cabeçalho {
+.cabecalho {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -20,16 +20,16 @@ body {
   padding: 24px;
 }
 
-.cabeçalho-imagem{
+.cabecalho-imagem{
   height: 72px;
 }
 
-.cabeçalho-menu {
+.cabecalho-menu {
   display: flex;
   gap: 32px;
 }
 
-.cabeçalho-menu-item {
+.cabecalho-menu-item {
   font-family: 'Sarala', sans-serif;
   color: #fff2e7;
   font-weight: 400;
