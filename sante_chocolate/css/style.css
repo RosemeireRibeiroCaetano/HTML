@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Poppins:wght@300;500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -77,10 +78,16 @@ button:focus {
   background-color: white;
   margin: 0 10px;
   border-radius: 25px;
+  border: 1px solid pink;
 
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.fa-solid {
+  cursor: pointer;
+  color: rgb(230, 208, 211);
 }
 
 .container-logo {
@@ -107,7 +114,7 @@ button:focus {
   margin: 10px 0px;
 }
 
-.entrega_frente {
+.entrega-frente {
   width: 100%;
   height: 50px;
   background-color: #5e3d34;
@@ -116,10 +123,108 @@ button:focus {
   justify-content: space-around;
 }
 
-.entrega_frente span {
+.entrega-frente span {
   color: #fff;
   font-size: 15px;
   font-weight: 600;
   padding: 10px;
   font-family: sans-serif;
+}
+
+.title-heading {
+  width: 100%;
+  height: 120px;
+
+  padding: 0 45px 0 45px;
+  font-family: "Poppins";
+  background-color: white;
+}
+
+.title-heading > h2 {
+  color: #5e3d34;
+  display: flex;
+  justify-content: space-around;
+  margin: 45px 0 45px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.produtos {
+  background-color: #ccc;
+  width: 100%;
+}
+
+.produtos > ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.produtos > ul > li {
+  border: 2px solid #ccc;
+}
+
+.produtos > ul > li > a {
+  text-decoration: none;
+}
+
+.produtos > ul > li > a > .card {
+  width: 270px;
+  height: 469px;
+}
+
+.produtos > ul > li > a > .card > img {
+  width: 100%;
+  height: 269px;
+}
+
+.produtos > ul > li > a > .card > .descricao {
+  height: 50px;
+  color: #2b2e32;
+  text-align: center;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.produtos > ul > li > a > .card > .valor {
+  text-align: center;
+  color: #5e3d34;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.produtos > ul > li > a > .card > .parcelas {
+  color: #2b2e32;
+  text-align: center;
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+}
+
+.produtos > ul > li > a > .card > .botoes {
+  width: 269px;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+}
+
+.produtos > ul > li > a > .card > .botoes > .comprar {
+  color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  border: none;
+  background-color: #5e3d34;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.caixa-coracao {
+  margin: 0 5px;
+}
+
+.coracao > .fa-solid {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  background: #fb4949;
 }
