@@ -134,23 +134,30 @@ button:focus {
 .title-heading {
   width: 100%;
   height: 120px;
-
   padding: 0 45px 0 45px;
   font-family: "Poppins";
-  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.title-heading > h2 {
+.title-heading > h1 {
   color: #5e3d34;
   display: flex;
   justify-content: space-around;
-  margin: 45px 0 45px;
   font-weight: 600;
   font-size: 2rem;
+  margin-top: 45px;
+}
+
+.title-heading > .traco {
+  width: 10vw;
+  border-bottom: 2px solid #ccc;
+  margin: 10px 0 45px;
 }
 
 .produtos {
-  background-color: #ccc;
   width: 100%;
 }
 
@@ -160,10 +167,6 @@ button:focus {
   list-style: none;
 }
 
-.produtos > ul > li {
-  border: 2px solid #ccc;
-}
-
 .produtos > ul > li > a {
   text-decoration: none;
 }
@@ -171,6 +174,8 @@ button:focus {
 .produtos > ul > li > a > .card {
   width: 270px;
   height: 469px;
+  border-right: 1px solid #e3e3e3;
+  background-color: white;
 }
 
 .produtos > ul > li > a > .card > img {
@@ -182,7 +187,7 @@ button:focus {
   height: 50px;
   color: #2b2e32;
   text-align: center;
-
+  font-size: 0.9rem;
   font-family: "Poppins", sans-serif;
 }
 
@@ -194,9 +199,10 @@ button:focus {
   font-weight: 400;
 }
 .produtos > ul > li > a > .card > .parcelas {
-  color: #2b2e32;
+  color: #494949;
   text-align: center;
-  font-size: 11px;
+  font-weight: 100;
+  font-size: 15px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -227,4 +233,71 @@ button:focus {
   color: white;
   cursor: pointer;
   background: #fb4949;
+}
+
+.experimente-produtos {
+  width: 100%;
+  height: 100%;
+  margin: 15px 0 15px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.experimente-produtos > .imagem-1 {
+  width: 358px;
+  height: 468px;
+  margin-right: 48px;
+}
+
+.experimente-produtos > .imagem-2 {
+  width: 764px;
+  height: 470px;
+}
+
+.title-heading-center {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.title-cacau {
+  width: 100%;
+  text-decoration: none;
+  height: 85px;
+  color: #5e3d34;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.products-container {
+  max-width: 1170px;
+  height: 452px;
+  margin: 0 auto;
+
+  display: flex;
+  padding: 25px 0 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.products-image {
+  width: 360px;
+  height: 422px;
+}
+
+#img-1 {
+  background-image: url("../img/a-opt.jpg");
+}
+
+#img-2 {
+  background-image: url("../img/b-opt.jpg");
+}
+
+#img-3 {
+  background-image: url("../img/c-opt.jpg");
 }
