@@ -23,6 +23,7 @@ header > .topo {
   justify-content: space-around;
   align-items: center;
 }
+
 .logo-imagem > img {
   width: 222px;
   height: 97px;
@@ -300,4 +301,51 @@ button:focus {
 
 #img-3 {
   background-image: url("../img/c-opt.jpg");
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  padding: 43px 10px 40px;
+  background-color: #dfdfdf;
+  font-family: sans-serif;
+  justify-content: space-around;
+}
+
+.footer > img {
+  width: 210px;
+  height: 92px;
+
+  filter: brightness(0) invert(0);
+}
+
+.footer > ul > h1 {
+  color: #2f2f2f;
+  font-size: 15px;
+  padding: 20px;
+  align-items: center;
+}
+
+.footer > ul > li {
+  list-style: none;
+  padding: 10px 20px 5px;
+}
+
+.footer > ul > li > a {
+  color: #5f5f5f;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.footer-card {
+  width: 100%;
+  padding: 20px 10px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-card > img {
+  width: 65px;
+  height: 39px;
 }

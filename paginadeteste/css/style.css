@@ -6,12 +6,11 @@
 }
 
 .container header {
-  background-color:  #608fc6;
+  background-color: #608fc6;
   color: #ffff;
   padding: 25px;
   border-bottom: 4px solid #3e5f85;
   text-align: center;
-
 }
 
 .container nav {
@@ -34,7 +33,7 @@
   text-decoration: none;
   color: #608fc6;
   text-decoration: none;
-  text-transform:lowercase;
+  text-transform: lowercase;
 }
 
 .cimg {
@@ -83,7 +82,7 @@
 }
 .cimg .card-img .informacao .valor .bold-blue {
   font-weight: bold;
-  color: #2DBDAF;
+  color: #2dbdaf;
   margin-bottom: 10px;
 }
 .cimg .card-img .informacao .valor .bold-blue .sem-bold {
