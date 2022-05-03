@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/img-01.jpg");
+}
+
+.login-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.login-container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #005bea;
+  background: -webkit-linear-gradient(bottom, #005bea, #00c6fb);
+  opacity: 0.9;
+}
+
+.wrap-login {
+  width: 390px;
+  padding: 190px 0 30px;
+}
+
+.login-form-validate {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.login-avatar {
+  margin: 0 135px;
+}
+
+.login-avatar > img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.login-form-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  padding: 20px 0 45px;
+  text-align: center;
+  display: block;
+}
+
+.validate-input {
+  width: 100%;
+}
+
+.validate-input > .input-1 {
+  width: 100%;
+  height: 50px;
+  font-weight: 700;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  padding: 0 30px 0 53px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.btn-login {
+  width: 100%;
+  border: none;
+  height: 50px;
+  background: #333333;
+  font-size: 15px;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  background: #005bea;
+  background: -webkit-linear-gradient(left, #005bea, #00c6fb);
+  background: -o-linear-gradient(left, #005bea, #00c6fb);
+  background: -moz-linear-gradient(left, #005bea, #00c6fb);
+  background: linear-gradient(left, #005bea, #00c6fb);
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  color: #fff;
+}
+.text-center {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.text-center > .text1 {
+  color: #ccc;
+  font-size: 16px;
+  text-decoration: none;
+}
